@@ -67,6 +67,18 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     z-index: 1;
+    position: fixed;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    -o-transition: padding 0.3s;
+    -ms-transition: padding 0.3s;
+    transition: padding 0.3s;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .header-logo {
